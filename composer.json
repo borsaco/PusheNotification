@@ -1,0 +1,25 @@
+{
+  "name": "borsaco/pushe-notification",
+  "type": "library",
+  "description": "PHP pushe.co API wrapper",
+  "keywords": ["php", "pushe", "notification"],
+  "homepage": "http://borsaco.ir",
+  "license": "MIT",
+  "version": "1.0.0" ,
+  "authors": [
+    {
+      "name": "Alireza Seddighi",
+      "email": "seddighi@borsaco.ir",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Borsaco\\PusheNotification\\" : "src/"
+    }
+  },
+  "minimum-stability": "dev"
+}
